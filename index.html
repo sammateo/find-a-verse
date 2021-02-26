@@ -24,19 +24,25 @@
         <h1 class="header">Find-A-Verse</h1>
         <div class="input-container">
             <h3>Book:</h3>
-            <input type="text" id="book" name="book" value="Genesis" placeholder="Book"><br>
+            <input type="text" id="book" name="book" value="" placeholder="Book"><br>
             <h3>Chapter:</h3>
-            <input type="number" id="chapter" name="chapter" value="1" placeholder="Chapter"><br>
+            <input type="number" id="chapter" name="chapter" value="" placeholder="Chapter"><br>
             <h3>Verse: </h3>
-            <input type="text" id="verse" name="verse" value="1" placeholder="Verse"><br>
+            <input type="text" id="verse" name="verse" value="" placeholder="Verse"><br>
             <button id="button">Find Verse</button>
         </div>
         
         <div id="response-container" class="responses">
             <p id="ref-response"></p>
+
+            <br>
             <p id="text-response"></p>
 
 
+        </div>
+        <br><br><br><br>
+        <div class="footer">
+            <p>This was created using a Bible API which can be found at https://bible-api.com.</p>
         </div>
         <script src="./api.js" async defer></script>
         
